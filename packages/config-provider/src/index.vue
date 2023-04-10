@@ -6,11 +6,8 @@
 	</el-config-provider>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts" setup name='CkConfigProvider'>
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
-defineOptions({
-	name: 'CkConfigProvider'
-})
 
 defineProps({
 	locale: {
